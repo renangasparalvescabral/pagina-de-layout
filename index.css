@@ -1,0 +1,60 @@
+body{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.class-cabecalho{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.container-1{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 200px 200px;
+    background-color: aquamarine;
+}
+
+/*............................................*/
+
+.container-2{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 300px;
+    background-color: hsl(240, 100%, 95%);
+}
+
+/*............................................*/
+
+.container-3{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 300px;
+    background-color:  hsl(238, 22%, 44%);
+}
+
+/*............................................*/
+
+.container-4{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 250px;
+    background-color: hsl(243, 84%, 26%) ;
+    
+}
+
+
+
+
