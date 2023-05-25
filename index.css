@@ -39,9 +39,52 @@ body{
     justify-content: center;
     align-content: center;
     grid-template-columns: 400px 400px;
-    grid-template-rows: 300px;
+    grid-template-rows: 160px;
     background-color:  hsl(238, 22%, 44%);
 }
+
+
+.text-get{
+    color: white;
+    margin-top: 40px;
+    margin-left: 36px;
+    font-size: 20px;
+}
+
+.paragrafo-get{
+    color: hsl(0, 0%, 75%);
+    font-size: 10px;
+    margin-top: 20px;
+    margin-left: 36px;
+}
+
+.class-link{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.link-type{
+    margin-right: 65px;
+    border-width: 0px;
+    border: none;
+    outline: 0;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+.link-get{
+    text-decoration: none;
+    background-color: rgb(61, 61, 252);
+    color:  hsl(0, 0%, 75%);
+    border-radius: 2px;
+    margin-right: 220px;
+    font-size: 11px;
+    padding: 8px;
+    border-width: 0px;
+    
+}
+
 
 /*............................................*/
 
@@ -50,11 +93,95 @@ body{
     justify-content: center;
     align-content: center;
     grid-template-columns: 200px 200px 200px 200px;
-    grid-template-rows: 250px;
-    background-color: hsl(243, 84%, 26%) ;
-    
+    grid-template-rows: 300px;
+    background-color: hsl(243, 84%, 19%) ;
 }
 
+.foto-fylo{
+    margin-top: 40px;
+    margin-left: 36px;
+    margin-bottom: -20px;
+}
+
+.class-phone{
+    display: flex;
+    margin-left: 50px;
+}
+
+.foto-phone{
+    width: 15px;
+    height: 15px;
+    margin-top: 17px;
+}
+
+.text-phone{
+    color: hsl(0, 0%, 75%);
+    font-size: 10px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.class-email{
+    display: flex;
+    margin-top: -10px;
+    margin-left: 50px;
+}
+
+.foto-email{
+    width: 15px;
+    height: 15px;
+    margin-top: 17px;
+}
+
+.class-about{
+    display: flex;
+    flex-direction: column;
+    margin-top: 103px;
+    margin-left: 85px;
+    font-size: 10px;
+}
+
+.class-about a{
+    padding: 8px;
+    color: hsl(0, 0%, 75%);
+    text-decoration: none;
+}
+
+.class-contact{
+    display: flex;
+    flex-direction: column;
+    margin-top: 103px;
+    margin-left: 55px;
+    font-size: 10px;
+}
+
+.class-contact a{
+    padding: 8px;
+    color: hsl(0, 0%, 75%);
+    text-decoration: none;
+}
+
+.class-icones{
+    display: flex;
+    margin-top: 104px;
+   
+}
+
+.foto-face{
+    width: 23px;
+    height: 23px;
+}
+
+.foto-twiter{
+    margin-top: 1px;
+    width: 20px;
+    height: 20px;
+}
+
+.foto-instagran{
+    width: 22px;
+    height: 22px;
+}
 
 
 
