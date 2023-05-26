@@ -7,18 +7,76 @@ body{
 
 .class-cabecalho{
     display: flex;
-    justify-content: center;
-    align-content: center;
 }
 
+.class-cabecalho a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
 
+.logo-cabecalho{
+    margin-left: 36px;
+}
+
+.class-features{
+    margin-left: 425px;
+    text-decoration: none;
+    color: rgb(119, 117, 117);
+}
+
+.class-team{
+    margin-left: 25px;
+    text-decoration: none;
+    color: rgb(119, 117, 117);
+}
+
+.class-sign{
+    margin-left: 25px;
+    text-decoration: none;
+    color: rgb(119, 117, 117);
+}
+/*.............................................*/
 .container-1{
     display: grid;
     justify-content: center;
     align-content: center;
     grid-template-columns: 400px 400px;
-    grid-template-rows: 200px 200px;
-    background-color: aquamarine;
+    grid-template-rows: 300px;
+}
+
+.text-grid1{
+    font-size: 22px;
+    margin-top: 50px;
+    margin-left: 36px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.paragrafo-grid1{
+    font-size: 10px;
+    margin-left: 36px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.class-link-grid1{
+    display: flex;
+    
+}
+
+.link-type-grid1{
+    margin-right: 200px;
+    outline: 0;
+    margin-left: 36px;
+}
+
+.link-get-grid1{
+    text-decoration: none;
+    background-color: rgb(61, 61, 252);
+    color:  hsl(0, 0%, 75%);
+    border-radius: 2px;
+    font-size: 8px;
+    border-width: 0px;
+    margin-left: -190px;
+    padding: 0px 17px;
 }
 
 /*............................................*/
@@ -28,9 +86,99 @@ body{
     justify-content: center;
     align-content: center;
     grid-template-columns: 400px 400px;
-    grid-template-rows: 300px;
-    background-color: hsl(240, 100%, 95%);
+    grid-template-rows: 400px;
+    background-color: hsl(240, 71%, 96%);
 }
+
+.class-grid2{
+    padding-bottom: -30px;
+}
+
+.h1-grid2{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 36px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.paragrafo-grid2{
+    font-size: 10px;
+    margin-left: 36px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.link-grid2{
+    font-size: 10px;
+    margin-left: 36px;
+    color: hsl(170, 45%, 43%);
+    text-decoration: none;
+    border-bottom: 1px solid green;
+    padding-bottom: 1px;
+}
+
+.logo-grid2{
+    width: 11px;
+    transform: translate(-6px, 4px);
+    border-bottom: 1px solid green;
+    padding-left: 5px;
+    padding-bottom: 1px;
+}
+
+.img-grid2{
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+.class-documentario{
+    margin-top: -200px;
+    margin-left: 36px;
+    width: 200px;
+    height: 150px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px rgb(218, 218, 247);
+    background-color: white;
+}
+
+.aspas{
+    width: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.paragrafo-documentario{
+    font-size: 8px;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.img-pessoa-kyle{
+    display: flex;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+
+.img-kyle{
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+.nome-kyle{
+    font-size: 8px;
+    padding-left: 10px;
+    margin-bottom: -8px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.função-kyle{
+    font-size: 8px;
+    padding-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
 
 /*............................................*/
 
@@ -46,16 +194,18 @@ body{
 
 .text-get{
     color: white;
-    margin-top: 40px;
+    margin-top: 45px;
     margin-left: 36px;
-    font-size: 20px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .paragrafo-get{
     color: hsl(0, 0%, 75%);
-    font-size: 10px;
-    margin-top: 20px;
+    font-size: 8px;
+    margin-top: 10px;
     margin-left: 36px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .class-link{
@@ -119,6 +269,7 @@ body{
     font-size: 10px;
     margin-top: 20px;
     padding-left: 10px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .class-email{
@@ -145,6 +296,7 @@ body{
     padding: 8px;
     color: hsl(0, 0%, 75%);
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .class-contact{
@@ -159,6 +311,7 @@ body{
     padding: 8px;
     color: hsl(0, 0%, 75%);
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .class-icones{
@@ -181,6 +334,18 @@ body{
 .foto-instagran{
     width: 22px;
     height: 22px;
+}
+
+/*.............................................*/
+
+.attribution{
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.attribution a{
+    text-decoration: none;
 }
 
 

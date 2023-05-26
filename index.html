@@ -6,7 +6,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/layout-logo.jpg">
   <link rel="Stylesheet" type="text/css" href="index.css">
   <title>Pagina de layout</title>
-
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+  </style>
   <!--
   ## Layout
 
@@ -50,11 +52,14 @@ The designs were created to the following widths:
 <body>
 
   <div class="class-cabecalho">
-    <img class="img-cabecalho" src="./images/fylo-logo_2-removebg-preview.png" width="100">  
+    <img class="logo-cabecalho" src="./images/fylo logo preto.png" width="100">
     <a class="class-features" href="Features">Features</a>
     <a class="class-team" href="Team">Team</a>
     <a class="class-sign" href="Sign In">Sign In</a>
+    
   </div>
+
+
 
   <div class="container-1">
  
@@ -66,11 +71,14 @@ The designs were created to the following widths:
         them wherever you need, share and collaborate with friends, family,<br>
         and co-workers.
       </p>
-      <a class="link-grid1"  href="Get Started">Get Started</a>
+      <form class="class-link-grid1">     
+        <input class="link-type-grid1" type="text" placeholder="Email.exemplo.com">
+        <input class="link-get-grid1" type="submit" value="Get Started">
+      </form>
     </div>  
 
     <div>
-      <img class="foto-grid1" src="./images/illustration-1.svg" width="300">
+      <img class="foto-grid1" src="./images/illustration-1.svg" width="350">
     </div>
 
   </div>
@@ -81,7 +89,7 @@ The designs were created to the following widths:
 
 
     <div class="class-grid2" >
-      <h1 class="text-grid2" >Stay productive, wherever you are</h1>
+      <h1 class="h1-grid2" >Stay productive, wherever you are</h1>
       <p class="paragrafo-grid2">
         Never let location be an issue when accessing your files. Fylo has you<br> 
         covered for all of your file storage needs.
@@ -91,25 +99,29 @@ The designs were created to the following widths:
         live collaboration. No email attachments required!
       </p>
       <a class="link-grid2"  href="See how fylo works">See how Fylo works</a>
-      <img class="img-grid2" src="./images/icon-arrow.svg">
-      
+      <img class="logo-grid2" src="./images/icon-arrow.svg">
     </div>
 
-    <div>
-      <img src="./images/illustration-2.svg" width="300">
+
+    <div class="img-inlustrativa" >
+      <img class="img-grid2" src="./images/illustration-2.svg" width="350">
     </div>
 
-    <div>
-      <img src="./images/icon-quotes.svg" width="35">
-      <p>Fylo has improved our team productivity by<br>
+
+    <div class="class-documentario">
+      <img class="aspas" src="./images/icon-quotes.svg" width="35">
+      <p class="paragrafo-documentario" >Fylo has improved our team productivity by<br>
         an order of magnitude. Since making the<br>
         switch our team has become a well-oiled<br>
         collaboration machine.
       </p>
-      <img src="./images/avatar-testimonial.jpg" width="100">
-      <h1>Kyle Burton</h1>
-      <p>Founder & CEO, Huddle</p>
-      
+      <div class="img-pessoa-kyle">
+          <img class="img-kyle" src="./images/avatar-testimonial.jpg" width="100">
+        <div class="class-info" >
+          <h1 class="nome-kyle" >Kyle Burton</h1>
+          <p class="função-kyle" >Founder & CEO, Huddle</p>
+        </div> 
+      </div>
     </div>
   </div>  
 
@@ -117,9 +129,10 @@ The designs were created to the following widths:
   <div class="container-3">
     <div>
       <h1 class="text-get" >Get early access today</h1>
-      <p class="paragrafo-get" >It only takes a minute to sign up and our free starter tier is<br>
-        extremely generous. If you have any questions, our support team <br>
-        would be happy to help you.
+      <p class="paragrafo-get" >It only takes a minute
+         to sign up and our free starter tier is<br>
+         extremely generous. If you have any questions, our support team <br>
+         would be happy to help you.
       </p>
     </div>
     <form class="class-link">     
@@ -170,10 +183,10 @@ The designs were created to the following widths:
 
 
   <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge"
-      target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+    <p class="attribution">Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by
+      <a href="#"> Renan gaspar </a>.
     </p>
   </footer>
   </body>
